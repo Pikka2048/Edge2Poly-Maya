@@ -7,7 +7,6 @@ thickness = 0
 thicknessMultiplay = 0.2
 ThicknessField = None
 
-
 def AppWindow():
     if cmds.window('EdgeToPoly', ex=1):
         cmds.deleteUI('EdgeToPoly')
@@ -22,7 +21,6 @@ def AppWindow():
     ThicknessField = cmds.floatField("myIntField", minValue=0, maxValue=1, width=60,
                                      changeCommand="OnButtonClick()")
     cmds.showWindow()
-
 
 def OnButtonClick():
     # Init
@@ -55,6 +53,5 @@ def OnButtonClick():
 
     cmds.polyExtrudeFacet(tk=thickness*thicknessMultiplay)
 
-
-if __name__ == '__main__':
+def Run():
     AppWindow()
