@@ -34,7 +34,7 @@ def OnButtonClick():
 
     cmds.polyBevel3(f=thickness, oaf=True, sn=True, sg=1, d=1,
                     mvt=0.0001, ws=True, sa=40, ch=0, mv=False, ma=180, c=False)
-    # Maginai
+    #Just in case
     maya.utils.processIdleEvents()
 
     # Select 4Face
