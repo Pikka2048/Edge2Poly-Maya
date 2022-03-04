@@ -1,6 +1,6 @@
 # Edge2Poly
 
-![img]()
+![img](https://github.com/Pikka2048/Edge2Poly/blob/master/image/EdgeToPolyOverView.png)
 
 ## Overview
 Convert Edge to thick polygon.
